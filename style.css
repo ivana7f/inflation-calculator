@@ -1,0 +1,61 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 10px;
+}
+
+body {
+  /* background */
+  background: rgba(0, 0, 0, 0.7) url("money.jpeg");
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-blend-mode: darken;
+  /* text  */
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: #fff;
+  line-height: 2;
+  height: 90vh;
+}
+
+.container {
+  max-width: 800px;
+  margin: auto;
+  border: 2px solid brown;
+  border-radius: 30px;
+  background-color: rgba(0, 0, 0, 0.3);
+  padding: 20px;
+}
+
+p {
+  margin: 10px 20px;
+  font-size: 1.7rem;
+}
+
+div {
+  font-size: 1.7rem;
+}
+
+h1 {
+  text-align: center;
+  margin-top: 20px;
+  font-size: 3rem;
+}
+
+.btn {
+  display: inline-block;
+  margin-left: 20px;
+  padding: 7px 10px;
+  border-radius: 10px;
+  background-color: rgb(243, 203, 27);
+}
+
+input {
+  width: 70px;
+  padding: 5px 10px;
+}
